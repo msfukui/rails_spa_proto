@@ -1,0 +1,133 @@
+
+rails_spa_proto=/Users/msfukui/studies/rails_spa_proto CD=. filter="*" {
+ config.ru
+ Gemfile
+ Gemfile.lock
+ package.json
+ Rakefile
+ README.md
+ app=app {
+  assets=assets {
+   config=config {
+    manifest.js
+   }
+   images=images {
+   }
+   javascripts=javascripts {
+    application.js
+    cable.js
+    channels=channels {
+    }
+   }
+   stylesheets=stylesheets {
+    application.css
+   }
+  }
+  channels=channels {
+   application_cable=application_cable {
+    channel.rb
+    connection.rb
+   }
+  }
+  controllers=controllers {
+   application_controller.rb
+   concerns=concerns {
+   }
+  }
+  helpers=helpers {
+   application_helper.rb
+  }
+  jobs=jobs {
+   application_job.rb
+  }
+  mailers=mailers {
+   application_mailer.rb
+  }
+  models=models {
+   application_record.rb
+   concerns=concerns {
+   }
+  }
+  views=views {
+   layouts=layouts {
+    application.html.erb
+    mailer.html.erb
+    mailer.text.erb
+   }
+  }
+ }
+ config=config {
+  application.rb
+  boot.rb
+  cable.yml
+  credentials.yml.enc
+  database.yml
+  environment.rb
+  master.key
+  puma.rb
+  routes.rb
+  spring.rb
+  storage.yml
+  environments=environments {
+   development.rb
+   production.rb
+   test.rb
+  }
+  initializers=initializers {
+   application_controller_renderer.rb
+   assets.rb
+   backtrace_silencers.rb
+   content_security_policy.rb
+   cookies_serializer.rb
+   filter_parameter_logging.rb
+   inflections.rb
+   mime_types.rb
+   wrap_parameters.rb
+  }
+  locales=locales {
+   en.yml
+  }
+ }
+ lib=lib {
+  assets=assets {
+  }
+  tasks=tasks {
+  }
+ }
+ log=log {
+  development.log
+ }
+ public=public {
+  404.html
+  422.html
+  500.html
+  apple-touch-icon-precomposed.png
+  apple-touch-icon.png
+  favicon.ico
+  robots.txt
+ }
+ storage=storage {
+ }
+ test=test {
+  application_system_test_case.rb
+  test_helper.rb
+  controllers=controllers {
+  }
+  fixtures=fixtures {
+   files=files {
+   }
+  }
+  helpers=helpers {
+  }
+  integration=integration {
+  }
+  mailers=mailers {
+  }
+  models=models {
+  }
+  system=system {
+  }
+ }
+ vendor=vendor {
+ }
+}
